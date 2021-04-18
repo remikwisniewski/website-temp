@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './Components/Header';
+import Feature from './Components/Feature';
+import AboutMe from './Components/AboutMe';
+import Contact from './Components/ContactInfo';
+import Presentation from './Components/Presentation';
+import AboutImage from './images/about.png';
+import AboutImage1 from './images/download.png';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/> 
+      <Feature/>
+      <AboutMe image={AboutImage} title = 'random text to just fill in ##UPDATE' button='Press button'/>
+      <Presentation/> 
+      <AboutMe image={AboutImage1} title = '#####UPDATE######' button='Press the button!'/>
+      <Contact/>
     </div>
   );
 }
