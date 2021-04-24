@@ -16,7 +16,8 @@ function Feature() {
                 If the keyword is found, it will download the   video, pass it through the Dolby.io API, and then upload the enhanced media video as a reply." 
                 text2 = "Here is the link to the DevPost of the hackathon"/>
                 <FeatureHeader image={featureimage1} title='C++ Project' text = "project"/>
-                <FeatureHeader image={featureimage2} title='Skills' text = "Javascript, Python, C++"/>
+                <FeatureHeader image={featureimage2} title='Skills' text = "Languages: " text3="- C/C++, Python, HTML/CSS, JavaScript"
+                text4="Frameworks: " text5= "- reactJS, vueJS"/>
 
                          
             </div>
