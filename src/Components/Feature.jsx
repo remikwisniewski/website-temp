@@ -10,10 +10,15 @@ function Feature() {
     return (
         <div id='features'>
             <div className = 'a-container'>
-                <FeatureHeader image={featureimage} title='Portfolio Projects'/> {/* fix in navbar*/}
-                <FeatureHeader image={featureimage1} title='Skills'/>
-                <FeatureHeader image={featureimage2} title='Classes Taken'/>
-                
+                <FeatureHeader image={featureimage} title='Reddit & Twitter Media Enhancer' text = "BrickHack 7 hackathon winning project hosted online by Rochester Institute of Technology. 
+                Won award for [Dolby.io] 2nd: Best Use of Media Processing APIs and Best Use of Interactivity APIs.
+                Developed in Python, the program is a bot that looks for specified keyboards in   replies to a tweet with a media file. 
+                If the keyword is found, it will download the   video, pass it through the Dolby.io API, and then upload the enhanced media video as a reply." 
+                text2 = "Here is the link to the DevPost of the hackathon"/>
+                <FeatureHeader image={featureimage1} title='C++ Project' text = "project"/>
+                <FeatureHeader image={featureimage2} title='Skills' text = "Javascript, Python, C++"/>
+
+                         
             </div>
             
         </div>

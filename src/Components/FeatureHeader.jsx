@@ -8,7 +8,8 @@ function FeatureHeader(props) {
             </div>
             <div className='s-b-text'>
                 <h2> {props.title} </h2>
-                <p> random text hahahaahahasahahhahhahaah </p>
+                <p> {props.text} </p>
+                <p> <a href="https://devpost.com/remikwisniewski">{props.text2}</a> </p>
             </div>
         </div>
     )

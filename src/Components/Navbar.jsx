@@ -1,10 +1,10 @@
 import React, {useState } from 'react';
-import logo from '../images/logo.png';
 
 function Navbar() {
 
     const [nav,setnav] = useState(false);
 
+    {/* page scrolling */}
     const changeBackground = () => {
         if(window.scrollY >= 50){
             setnav(true);
@@ -16,10 +16,7 @@ function Navbar() {
     window.addEventListener('scroll', changeBackground); {/* EVENT FUNCTION */}
 
     return (
-        <nav className={nav ? "nav active" : "nav"}>
-            <a href="#" className='logo'>
-                <img src={logo} alt = ''/>
-            </a>
+        <nav className={nav ? "nav active" : "nav"}> 
             <input type='checkbox' className= 'menu-btn' id='menu-btn'/>
             <label className='menu-icon' for= 'menu-btn'>
                 <span className= 'nav-icon'></span>
@@ -27,10 +24,8 @@ function Navbar() {
             <ul className= 'menu'>
                 <li><a href='#'>Home</a></li>
                 {/* scroll down options when clicked on*/}
-                <li><a href='#'>Features</a></li> {/* FIX LINKS (HREF='#' */}
-                <li><a href='#'>About</a></li>
-                <li><a href='#'>UI SS</a></li>
-                <li><a href='#'>Download</a></li>
+                <li><a href='#features'>Portfolio</a></li> {/* FIX LINKS (HREF='#' */}
+                <li><a href='#about'>Contact Me</a></li>
             </ul>
         </nav>
     )

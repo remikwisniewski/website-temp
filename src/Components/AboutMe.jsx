@@ -3,18 +3,20 @@ import React from 'react';
 function AboutMe(props) {
     return (
         <div id='about'>
-            <div className='about-image'>
-                <img src={props.image} alt= ''/> {/* img link */}
-            </div>
 
-            <div className= 'about-text'> {/* BIO FOR ABOUT PAGE */}
+            <div className= 'about-text'> {/* BIO FOR contact page */}
                 <h2> {props.title}
                 </h2>
                 <p>
-                    Random about me text....... HAHAHH
-                    fill this in later :D
+                    Email: rwisni736@gmail.com
                 </p>
-                <button> {props.button}</button>
+                <p>
+                    Github: <a href="https://github.com/remikwisniewski">@remikwisniewski </a>
+                </p>
+                <p>
+                    LinkedIn: <a href="http://linkedin.com/in/remi-wisniewski-56a9031aa">linkedin.com/in/remi-wisniewski-56a9031aa.</a>
+                </p>
+                
 
             </div>
 
