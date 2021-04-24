@@ -13,7 +13,7 @@ https://pttrns.com/
 TODO:
 
 - delete css/var names not used in index.css, check prev version on pc
-- feature page: update c++, update skills
+- feature page: update c++
 - CONTACT ME PAGE: FIX MOBILE BUG
 
 ###

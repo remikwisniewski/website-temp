@@ -11,10 +11,10 @@ function FeatureHeader(props) {
                 <p> {props.text} </p>
                 <p> <a href="https://devpost.com/remikwisniewski">{props.text2}</a> </p>
                 <p> {props.text3}</p>
-                <br></br>
                 <p> {props.text4}</p>
                 <p> </p>
                 <p> {props.text5}</p>
+                <h3> <a href=" ">{props.gitt}</a> < /h3>
             </div>
         </div>
     )
