@@ -14,7 +14,7 @@ function FeatureHeader(props) {
                 <p> {props.text4}</p>
                 <p> </p>
                 <p> {props.text5}</p>
-                <h3> <a href=" ">{props.gitt}</a> < /h3>
+                <h3> <a href="https://github.com/remikwisniewski">{props.gitt}</a> < /h3>
             </div>
         </div>
     )
